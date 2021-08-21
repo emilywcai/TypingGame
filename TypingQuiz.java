@@ -27,10 +27,15 @@ public class TypingQuiz
             String attempt = input.nextLine();
 
             if (evaluate(attempt, i))
+            {
                 score++;
+                System.out.println("Correct!");
+            }
+            else
+                System.out.println("Incorrect!");
         }
 
-        System.out.println("Your score is " + score + "/10");
+        System.out.println("Your score is " + score + "/10.");
     }
     public static void main(String[] args)
     {
