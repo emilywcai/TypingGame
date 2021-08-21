@@ -1,3 +1,7 @@
-public class gui throws Exception {
-    System.out.println("Hello world");
+
+
+class gui {
+    public static void main(String[] args) throws Exception {
+        System.out.println("hewwo");
+    }
 }
