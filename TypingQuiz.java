@@ -54,6 +54,8 @@ public class TypingQuiz
     }
     public static void main(String[] args)
     {
+        
+        // Below code is taken from: https://www.geeksforgeeks.org/converting-text-speech-java/
         try {
             // Set property as Kevin Dictionary
             System.setProperty(
