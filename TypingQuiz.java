@@ -1,5 +1,3 @@
-//import javax.speech.*;
-
 import java.util.Scanner;
 import java.util.Locale;
 import javax.speech.Central;
@@ -90,7 +88,6 @@ public class TypingQuiz
   
         catch (Exception e) {
             e.printStackTrace();
-        }  
-        
+        }      
     }
 }
